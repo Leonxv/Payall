@@ -1,0 +1,16 @@
+name: Payall_by_Aleondev
+api:
+- 3.0.0
+- 4.0.0
+version: 1_CoreGames
+main: Aleondev\payall\Main
+author:
+- Aleondev
+- CoreGames.nbb.one
+load: STARTUP
+commands:
+  payall:
+    description: §eCore §4Payall
+    usage: "/payall"
+    permission: payall.command
+    default: true
