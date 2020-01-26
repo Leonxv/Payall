@@ -10,7 +10,7 @@ author:
 load: STARTUP
 commands:
   payall:
-    description: §eCore §4Payall
+    description: §4Payall §bBy Aleondev
     usage: "/payall"
     permission: payall.command
     default: true
