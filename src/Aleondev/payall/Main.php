@@ -27,7 +27,6 @@ class Main extends PluginBase{
 								$this->getServer()->getPluginManager()->getPlugin("EconomyAPI")->addMoney($player, $args[0]);
 								$spieler = $player->getName();
 								$player->sendMessage("§f[§4Pay§eAll§f] §r»§b Du hast durch den §4Pay§eAll§b von §r§6".$name." §e" .$args[0]. "$ §berhalten!");
-                                                                $player->addTitle("§bDas §4Pay§eall §bsystem\n §4hat \n§bAleondev\§4gecodet");
                                                                 $player->sendTip("§f[§4Pay§eAll§f] §r»§b Du hast durch den §4Pay§eAll§b von §r§6".$name." §e" .$args[0]. "$ §berhalten!");
 								}
 								$this->getServer()->getPluginManager()->getPlugin("EconomyAPI")->reduceMoney($sender, $setmoney);
